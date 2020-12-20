@@ -64,22 +64,14 @@
         <img src="ring1/TT.png">
         <img src="ring1/CoLS.png">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-        <script>
+	<script>
 
-            $(document).ready(function() {
+		$(document).ready(function() {
+	
+	     	$('body').jGravity();
+		});
 
-                $('div.jGravity').live('click', function() {
-                      $('body').jGravity({
-                          target: 'everything',
-                          ignoreClass: 'ignoreMe',
-                          weight: 25,
-                          depth: 5,
-                          drag: true
-          	        });
-     	        });
-	        });
-
-        </script>
+	</script>
 
         
     </body>
